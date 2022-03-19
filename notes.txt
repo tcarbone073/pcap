@@ -1,5 +1,26 @@
 Lecture 04: DataTypes
     - 4 fundamental datatypes: int, float, str, bool
 
+Lecture 07 Strings:
+    - Slicing is [start (inclusive):step: stop (exclusive)]
+
 Lecture 09 String Formatting:
-    - .format() method 
+    - .format() method can take positional specifiers
+      e.g. "The {1}, {0} fox...".format("brown", "quick")
+
+Lecture 10 String Immutability:
+    - Strings are immutable
+
+Lecture 13 Lists:
+    - .pop() to remove last item in list
+        - returns popped value
+    - .pop(2) to remove third item from list
+    - lists are mutable
+    - .append(item) to add item to list
+        - returns None
+    - .sort() does an in-place sort (does not return anything)
+        - Also can sort strings
+    - .reverse() does an in-place reverse sort
+    - len() to return length of list
+	- list1 + list2 to merge 2 lists together 
+
