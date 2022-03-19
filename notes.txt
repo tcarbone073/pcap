@@ -1,0 +1,5 @@
+Lecture 04: DataTypes
+    - 4 fundamental datatypes: int, float, str, bool
+
+Lecture 09 String Formatting:
+    - .format() method 
